@@ -21,7 +21,7 @@ User.on('hello', function () {
             User.editStatus("idle", { name: "JavaScript", type: 0 })
             $status_2 = false;
         } else if ($status_3) {
-            User.editStatus("idle", { name: "JavaScript", type: 0 })
+            User.editStatus("idle", { name: "Cyborg Developement", type: 5 })
             $status_3 = false;
         } else {
             User.editStatus("idle", { name: "Your Cam", type: 3 })
