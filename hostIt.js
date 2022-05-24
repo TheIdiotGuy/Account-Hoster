@@ -9,7 +9,7 @@ const keepAlive = async () => {
     })
 
     _.listen(3000, async () => {
-        console.log(`[` + `CYBORG`.red + `]` + ` - ` + `Replit Hosted Successfully!`.cyan);
+        console.log(`[` + `CYBORG`.red + `]` + ` - ` + `Server is Online!`.cyan);
     })
 }
 
