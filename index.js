@@ -1,7 +1,9 @@
 const eris = require('eris');
 const keepAlive = require("./hostIt");
-const User = new eris(process.env.token)
+require("dotenv").config();
 require("colors")
+
+const User = new eris(process.env.token)
 
 let $status_1 = true;
 let $status_2 = true;
